@@ -1,0 +1,25 @@
+{
+  "name": "simple-portfolio",
+  "version": "1.0.0",
+  "description": "A simple portfolio of stocks.",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "author": "",
+  "license": "ISC"
+}
